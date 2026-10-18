@@ -1,0 +1,9 @@
+{
+    "name": "MyCustomLoggingUtils",
+    "version": "1.0.0",
+    "description": "Asynchronous logging and timing utilities for my ESP32 projects",
+    "keywords": ["logging", "timing"],
+    "authors": [{"name": "Vishwesh", "maintainer": true }],
+    "frameworks": ["arduino"],
+    "platforms": ["espressif32"]
+}
