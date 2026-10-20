@@ -1,5 +1,6 @@
 #pragma once
 #include <optional>
+#include <cstdint>
 
 enum class LogLevel: int {
     _DEFAULT = -1,

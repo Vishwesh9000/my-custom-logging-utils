@@ -11,6 +11,7 @@
 #include <type_traits>
 #include <algorithm>
 #include <optional>
+#include <cstdint>
 
 #ifndef LOG_COMPILE_LEVEL
 #define LOG_COMPILE_LEVEL static_cast<int>(LogLevel::VERBOSE)

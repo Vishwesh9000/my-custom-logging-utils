@@ -1,7 +1,7 @@
 #pragma once
 
-#include "Arduino.h"
 #include "logger/log_types.h"
+#include <cstdint>
 #include <string>
 #include <string_view>
 
@@ -16,6 +16,7 @@ class Timer {
     static inline bool initDone = false;
     bool objTimer = false, funcTimer = false;
     uint32_t startTimeMS, startTimeUS;
+    uint32_t checkPointMS, checkPointUS;
 
     explicit Timer(std::string_view name = {}, LogLevel level = LogLevel::_DEFAULT);
     ~Timer();
